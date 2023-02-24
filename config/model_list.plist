@@ -1,0 +1,13 @@
+<key>%name%</key>
+<dict>
+<key>frame</key>
+<string>{{905,621},{65,65}}</string>
+<key>offset</key>
+<string>{0,0}</string>
+<key>rotated</key>
+<false/>
+<key>sourceColorRect</key>
+<string>{{0,0},{65,65}}</string>
+<key>sourceSize</key>
+<string>{65,65}</string>
+</dict>

@@ -1,0 +1,21 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            %key-value%
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>%name%</key>
+            <string>%name%</string>
+            <key>size</key>
+            <string>{%x%,%y%}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:fa7363eb761b42d9a7bb4a320db4620d$</string>
+            <key>textureFileName</key>
+            <string>%name%</string>
+        </dict>
+    </dict>
+</plist>
