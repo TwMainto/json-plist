@@ -1,75 +1,87 @@
 import * as fs from "fs";
-import {comm} from "../config/comm";
 
 console.log('holle world');
 
 export class main {
+    static size: { w: number, h: number } = {w: 0, h: 0};
+    static image: string = '';
 
-    static main() {
-        let model_data = fs.readFileSync("./config/model.plist").toString().replace(/\s*/g, "");
-        console.log("model_data", model_data);
-
-
-        main.handle_main(model_data)
-    }
-
-    static handle_main(data: string) {
-        let name = "test.png";
-        let x = 300;
-        let y = 300;
-        // 替换文件名字
-        data = data.replace(/%name%/g, name);
+    static main(file_name: string) {
+        let model_data = fs.readFileSync("./config/model.plist").toString();
+        let value = this.readJson(file_name);
+        model_data = model_data.replace(/%name%/g, this.image);
         // 替换文件大小
-        data = data.replace('%x%', x.toString());
-        data = data.replace('%y%', y.toString());
-        console.log('data', data);
+        console.log('aaa', this.size, this.image);
+        model_data = model_data.replace('%x%', String(this.size.w));
+        model_data = model_data.replace('%y%', String(this.size.h));
+        model_data = model_data.replace("%key-value%", value);
+        console.log('model_data', model_data);
+        fs.writeFileSync(file_name + ".plist", model_data);
     }
 
-    static handle_list() {
-
-    }
-
-    static readJson() {
-        let data = fs.readFileSync("./test/Blur_Symbols.json").toString();
-        let json_data = JSON.parse(data);
-        // console.log('json ... ', json_data);
-        // console.log('meta ... ', json_data.meta);
-        // console.log('frames ... ', json_data.frames);
+    static readJson(file_name: string): any {
+        let json_data = JSON.parse(fs.readFileSync(file_name + ".json").toString());
+        this.size = json_data.meta.size;
+        this.image = json_data.meta.image;
+        let value = "";
         for (let framesKey in json_data.frames) {
-            console.log('framesKey', framesKey);
-            this.create_model(frames, framesKey);
+            value += this.create_model(json_data.frames, framesKey);
         }
-        // this.create_model(json_data.frames);
+        return value;
     }
 
-    static create_model(frames_data: any, framesKey: string) {
+    static create_model(frames_data: any, framesKey: string): any {
         let data = frames_data[framesKey];
-        let name = "<key>`framesKey`</key><dict> %value% </dict>";
+        let name = "<key>" + framesKey + "</key><dict> %value% </dict>";
+        let lists_data = "";
         for (let dataKey in data) {
-            this.handle_keys(dataKey, data);
+            lists_data += this.handle_keys(dataKey, data);
         }
+        lists_data += "<key>offset</key><string>{0,0}</string>"
+        return name.replace(/%value%/, lists_data);
     }
 
-    static handle_keys(key: string, data: any) {
+    static handle_keys(key: string, data: any): any {
         let value = data[key];
         let ret_data = "";
         switch (key) {
             case "frame":
-                ret_data += "<key>`key`</key><string>{{},{}}</string>";
+                ret_data +=
+                    `<key>${key}</key><string>{{${value.x},${value.y}},{${value.w},${value.h}}}</string>`;
                 break;
             case "rotated":
+                ret_data += `<key>${key}</key>`
+                if (value) {
+                    ret_data += "<true/>";
+                } else {
+                    ret_data += "<false/>";
+                }
                 break;
-            case "trimmed":
-                break;
+            // case "trimmed":
+            //     ret_data += `<key>${key}</key>`
+            //     if (value) {
+            //         ret_data += "<true/>";
+            //     } else {
+            //         ret_data += "<false/>";
+            //     }
+            //     break;
             case "spriteSourceSize":
+                ret_data +=
+                    `<key>sourceColorRect</key><string>{{0,0},{${value.w},${value.h}}}</string>`;
                 break;
             case "sourceSize":
+                ret_data +=
+                    `<key>${key}</key><string>{${value.w},${value.h}}</string>`;
                 break;
-            case "pivot":
-                break;
+            // case "pivot":
+            //     ret_data +=
+            //         `<key>${key}</key><string>{${value.x},${value.y}}</string>`;
+            //     break;
         }
+
+        return ret_data;
     }
 }
 
-main.readJson();
+main.main("./test/Blur_Symbols");
 

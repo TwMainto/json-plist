@@ -1,332 +1,332 @@
 <plist version="1.0">
-<dict>
-<key>frames</key>
-<dict>
-<key>jackpot_btn_j1.png</key>
-<dict>
-<key>frame</key>
-<string>{{905,621},{65,65}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{65,65}}</string>
-<key>sourceSize</key>
-<string>{65,65}</string>
-</dict>
-<key>jackpot_btn_j2.png</key>
-<dict>
-<key>frame</key>
-<string>{{836,621},{65,65}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{65,65}}</string>
-<key>sourceSize</key>
-<string>{65,65}</string>
-</dict>
-<key>jackpot_btn_notice1.png</key>
-<dict>
-<key>frame</key>
-<string>{{767,621},{65,65}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{65,65}}</string>
-<key>sourceSize</key>
-<string>{65,65}</string>
-</dict>
-<key>jackpot_btn_notice2.png</key>
-<dict>
-<key>frame</key>
-<string>{{698,621},{65,65}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{65,65}}</string>
-<key>sourceSize</key>
-<string>{65,65}</string>
-</dict>
-<key>jackpot_btn_ok1.png</key>
-<dict>
-<key>frame</key>
-<string>{{1408,386},{202,89}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<true/>
-<key>sourceColorRect</key>
-<string>{{0,0},{202,89}}</string>
-<key>sourceSize</key>
-<string>{202,89}</string>
-</dict>
-<key>jackpot_btn_ok2.png</key>
-<dict>
-<key>frame</key>
-<string>{{1315,386},{202,89}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<true/>
-<key>sourceColorRect</key>
-<string>{{0,0},{202,89}}</string>
-<key>sourceSize</key>
-<string>{202,89}</string>
-</dict>
-<key>jackpot_btn_run1.png</key>
-<dict>
-<key>frame</key>
-<string>{{878,690},{261,261}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{261,261}}</string>
-<key>sourceSize</key>
-<string>{261,261}</string>
-</dict>
-<key>jackpot_btn_run2.png</key>
-<dict>
-<key>frame</key>
-<string>{{613,699},{261,261}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{261,261}}</string>
-<key>sourceSize</key>
-<string>{261,261}</string>
-</dict>
-<key>jackpot_btn_run3.png</key>
-<dict>
-<key>frame</key>
-<string>{{348,699},{261,261}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{261,261}}</string>
-<key>sourceSize</key>
-<string>{261,261}</string>
-</dict>
-<key>jackpot_img_back1.png</key>
-<dict>
-<key>frame</key>
-<string>{{1315,246},{207,136}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{207,136}}</string>
-<key>sourceSize</key>
-<string>{207,136}</string>
-</dict>
-<key>jackpot_img_back10.png</key>
-<dict>
-<key>frame</key>
-<string>{{698,1},{613,616}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{613,616}}</string>
-<key>sourceSize</key>
-<string>{613,616}</string>
-</dict>
-<key>jackpot_img_back11.PNG</key>
-<dict>
-<key>frame</key>
-<string>{{1,1},{694,693}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<true/>
-<key>sourceColorRect</key>
-<string>{{0,0},{694,693}}</string>
-<key>sourceSize</key>
-<string>{694,693}</string>
-</dict>
-<key>jackpot_img_back3.png</key>
-<dict>
-<key>frame</key>
-<string>{{348,964},{75,25}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{75,25}}</string>
-<key>sourceSize</key>
-<string>{75,25}</string>
-</dict>
-<key>jackpot_img_back4.png</key>
-<dict>
-<key>frame</key>
-<string>{{1,699},{267,343}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<true/>
-<key>sourceColorRect</key>
-<string>{{0,0},{267,343}}</string>
-<key>sourceSize</key>
-<string>{267,343}</string>
-</dict>
-<key>jackpot_img_back8.png</key>
-<dict>
-<key>frame</key>
-<string>{{1501,386},{132,132}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{132,132}}</string>
-<key>sourceSize</key>
-<string>{132,132}</string>
-</dict>
-<key>jackpot_img_back_1.png</key>
-<dict>
-<key>frame</key>
-<string>{{1143,903},{506,90}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{506,90}}</string>
-<key>sourceSize</key>
-<string>{506,90}</string>
-</dict>
-<key>jackpot_img_back_2.png</key>
-<dict>
-<key>frame</key>
-<string>{{1143,809},{506,90}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{506,90}}</string>
-<key>sourceSize</key>
-<string>{506,90}</string>
-</dict>
-<key>jackpot_img_back_3.png</key>
-<dict>
-<key>frame</key>
-<string>{{1143,715},{506,90}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{506,90}}</string>
-<key>sourceSize</key>
-<string>{506,90}</string>
-</dict>
-<key>jackpot_img_back_4.png</key>
-<dict>
-<key>frame</key>
-<string>{{1143,621},{506,90}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{506,90}}</string>
-<key>sourceSize</key>
-<string>{506,90}</string>
-</dict>
-<key>jackpot_img_icon1_1.png</key>
-<dict>
-<key>frame</key>
-<string>{{1558,522},{53,53}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{53,53}}</string>
-<key>sourceSize</key>
-<string>{53,53}</string>
-</dict>
-<key>jackpot_img_icon2_1.png</key>
-<dict>
-<key>frame</key>
-<string>{{1501,522},{53,53}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{53,53}}</string>
-<key>sourceSize</key>
-<string>{53,53}</string>
-</dict>
-<key>jackpot_img_icon3_1.png</key>
-<dict>
-<key>frame</key>
-<string>{{1031,621},{53,53}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{53,53}}</string>
-<key>sourceSize</key>
-<string>{53,53}</string>
-</dict>
-<key>jackpot_img_icon4_1.png</key>
-<dict>
-<key>frame</key>
-<string>{{974,621},{53,53}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<false/>
-<key>sourceColorRect</key>
-<string>{{0,0},{53,53}}</string>
-<key>sourceSize</key>
-<string>{53,53}</string>
-</dict>
-<key>jackpot_img_pointer.png</key>
-<dict>
-<key>frame</key>
-<string>{{1315,1},{241,318}}</string>
-<key>offset</key>
-<string>{0,0}</string>
-<key>rotated</key>
-<true/>
-<key>sourceColorRect</key>
-<string>{{0,0},{241,318}}</string>
-<key>sourceSize</key>
-<string>{241,318}</string>
-</dict>
-</dict>
-<key>metadata</key>
-<dict>
-<key>format</key>
-<integer>2</integer>
-<key>111.png</key>
-<string>111.png</string>
-<key>size</key>
-<string>{1653,994}</string>
-<key>smartupdate</key>
-<string>$TexturePacker:SmartUpdate:fa7363eb761b42d9a7bb4a320db4620d$</string>
-<key>textureFileName</key>
-<string>111.png</string>
-</dict>
-</dict>
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>jackpot_btn_j1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{905,621},{65,65}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{65,65}}</string>
+                <key>sourceSize</key>
+                <string>{65,65}</string>
+            </dict>
+            <key>jackpot_btn_j2.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{836,621},{65,65}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{65,65}}</string>
+                <key>sourceSize</key>
+                <string>{65,65}</string>
+            </dict>
+            <key>jackpot_btn_notice1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{767,621},{65,65}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{65,65}}</string>
+                <key>sourceSize</key>
+                <string>{65,65}</string>
+            </dict>
+            <key>jackpot_btn_notice2.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{698,621},{65,65}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{65,65}}</string>
+                <key>sourceSize</key>
+                <string>{65,65}</string>
+            </dict>
+            <key>jackpot_btn_ok1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1408,386},{202,89}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{202,89}}</string>
+                <key>sourceSize</key>
+                <string>{202,89}</string>
+            </dict>
+            <key>jackpot_btn_ok2.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1315,386},{202,89}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{202,89}}</string>
+                <key>sourceSize</key>
+                <string>{202,89}</string>
+            </dict>
+            <key>jackpot_btn_run1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{878,690},{261,261}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{261,261}}</string>
+                <key>sourceSize</key>
+                <string>{261,261}</string>
+            </dict>
+            <key>jackpot_btn_run2.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{613,699},{261,261}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{261,261}}</string>
+                <key>sourceSize</key>
+                <string>{261,261}</string>
+            </dict>
+            <key>jackpot_btn_run3.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{348,699},{261,261}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{261,261}}</string>
+                <key>sourceSize</key>
+                <string>{261,261}</string>
+            </dict>
+            <key>jackpot_img_back1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1315,246},{207,136}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{207,136}}</string>
+                <key>sourceSize</key>
+                <string>{207,136}</string>
+            </dict>
+            <key>jackpot_img_back10.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{698,1},{613,616}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{613,616}}</string>
+                <key>sourceSize</key>
+                <string>{613,616}</string>
+            </dict>
+            <key>jackpot_img_back11.PNG</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{694,693}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{694,693}}</string>
+                <key>sourceSize</key>
+                <string>{694,693}</string>
+            </dict>
+            <key>jackpot_img_back3.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{348,964},{75,25}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{75,25}}</string>
+                <key>sourceSize</key>
+                <string>{75,25}</string>
+            </dict>
+            <key>jackpot_img_back4.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,699},{267,343}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{267,343}}</string>
+                <key>sourceSize</key>
+                <string>{267,343}</string>
+            </dict>
+            <key>jackpot_img_back8.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1501,386},{132,132}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{132,132}}</string>
+                <key>sourceSize</key>
+                <string>{132,132}</string>
+            </dict>
+            <key>jackpot_img_back_1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1143,903},{506,90}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{506,90}}</string>
+                <key>sourceSize</key>
+                <string>{506,90}</string>
+            </dict>
+            <key>jackpot_img_back_2.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1143,809},{506,90}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{506,90}}</string>
+                <key>sourceSize</key>
+                <string>{506,90}</string>
+            </dict>
+            <key>jackpot_img_back_3.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1143,715},{506,90}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{506,90}}</string>
+                <key>sourceSize</key>
+                <string>{506,90}</string>
+            </dict>
+            <key>jackpot_img_back_4.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1143,621},{506,90}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{506,90}}</string>
+                <key>sourceSize</key>
+                <string>{506,90}</string>
+            </dict>
+            <key>jackpot_img_icon1_1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1558,522},{53,53}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{53,53}}</string>
+                <key>sourceSize</key>
+                <string>{53,53}</string>
+            </dict>
+            <key>jackpot_img_icon2_1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1501,522},{53,53}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{53,53}}</string>
+                <key>sourceSize</key>
+                <string>{53,53}</string>
+            </dict>
+            <key>jackpot_img_icon3_1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1031,621},{53,53}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{53,53}}</string>
+                <key>sourceSize</key>
+                <string>{53,53}</string>
+            </dict>
+            <key>jackpot_img_icon4_1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{974,621},{53,53}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{53,53}}</string>
+                <key>sourceSize</key>
+                <string>{53,53}</string>
+            </dict>
+            <key>jackpot_img_pointer.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1315,1},{241,318}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{241,318}}</string>
+                <key>sourceSize</key>
+                <string>{241,318}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>111.png</key>
+            <string>111.png</string>
+            <key>size</key>
+            <string>{1653,994}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:fa7363eb761b42d9a7bb4a320db4620d$</string>
+            <key>textureFileName</key>
+            <string>111.png</string>
+        </dict>
+    </dict>
 </plist>
