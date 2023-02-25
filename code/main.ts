@@ -57,14 +57,6 @@ export class main {
                     ret_data += "<false/>";
                 }
                 break;
-            // case "trimmed":
-            //     ret_data += `<key>${key}</key>`
-            //     if (value) {
-            //         ret_data += "<true/>";
-            //     } else {
-            //         ret_data += "<false/>";
-            //     }
-            //     break;
             case "spriteSourceSize":
                 ret_data +=
                     `<key>sourceColorRect</key><string>{{0,0},{${value.w},${value.h}}}</string>`;
@@ -73,10 +65,6 @@ export class main {
                 ret_data +=
                     `<key>${key}</key><string>{${value.w},${value.h}}</string>`;
                 break;
-            // case "pivot":
-            //     ret_data +=
-            //         `<key>${key}</key><string>{${value.x},${value.y}}</string>`;
-            //     break;
         }
 
         return ret_data;
@@ -84,4 +72,3 @@ export class main {
 }
 
 main.main("./test/Blur_Symbols");
-
