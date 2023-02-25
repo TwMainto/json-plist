@@ -1,0 +1,21 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Symbol_01_normal.png</key><dict> <key>frame</key><string>{{2,2},{125,107}}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{125,107}}</string><key>sourceSize</key><string>{200,180}</string><key>offset</key><string>{0,0}</string> </dict><key>Symbol_02_normal.png</key><dict> <key>frame</key><string>{{2,111},{141,129}}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{141,129}}</string><key>sourceSize</key><string>{200,180}</string><key>offset</key><string>{0,0}</string> </dict><key>Symbol_03_normal.png</key><dict> <key>frame</key><string>{{2,242},{146,144}}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{146,144}}</string><key>sourceSize</key><string>{200,180}</string><key>offset</key><string>{0,0}</string> </dict><key>Symbol_04_normal.png</key><dict> <key>frame</key><string>{{2,388},{174,140}}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{174,140}}</string><key>sourceSize</key><string>{200,180}</string><key>offset</key><string>{0,0}</string> </dict><key>Symbol_05_normal.png</key><dict> <key>frame</key><string>{{2,530},{163,146}}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{163,146}}</string><key>sourceSize</key><string>{200,180}</string><key>offset</key><string>{0,0}</string> </dict><key>Symbol_06_normal.png</key><dict> <key>frame</key><string>{{2,678},{144,144}}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{144,144}}</string><key>sourceSize</key><string>{200,180}</string><key>offset</key><string>{0,0}</string> </dict><key>Symbol_07_normal.png</key><dict> <key>frame</key><string>{{2,824},{178,161}}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{178,161}}</string><key>sourceSize</key><string>{200,180}</string><key>offset</key><string>{0,0}</string> </dict><key>Symbol_08_normal.png</key><dict> <key>frame</key><string>{{2,987},{176,160}}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{176,160}}</string><key>sourceSize</key><string>{200,180}</string><key>offset</key><string>{0,0}</string> </dict><key>Symbol_09_normal.png</key><dict> <key>frame</key><string>{{2,1149},{176,160}}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{176,160}}</string><key>sourceSize</key><string>{200,180}</string><key>offset</key><string>{0,0}</string> </dict><key>Symbol_10_normal.png</key><dict> <key>frame</key><string>{{2,1311},{176,160}}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{176,160}}</string><key>sourceSize</key><string>{200,180}</string><key>offset</key><string>{0,0}</string> </dict><key>Symbol_11_normal.png</key><dict> <key>frame</key><string>{{2,1473},{176,480}}</string><key>rotated</key><false/><key>sourceColorRect</key><string>{{0,0},{176,480}}</string><key>sourceSize</key><string>{200,540}</string><key>offset</key><string>{0,0}</string> </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>Normal_Symbols.png</key>
+            <string>Normal_Symbols.png</string>
+            <key>size</key>
+            <string>{182,1955}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:fa7363eb761b42d9a7bb4a320db4620d$</string>
+            <key>textureFileName</key>
+            <string>Normal_Symbols.png</string>
+        </dict>
+    </dict>
+</plist>
